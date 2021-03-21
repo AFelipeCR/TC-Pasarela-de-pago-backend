@@ -1,0 +1,27 @@
+{
+  "name": "pasarela-de-pago-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AFelipeCR/TC-Pasarela-de-pago-backend.git"
+  },
+  "author": "FS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AFelipeCR/TC-Pasarela-de-pago-backend/issues"
+  },
+  "homepage": "https://github.com/AFelipeCR/TC-Pasarela-de-pago-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "epayco-sdk-node": "^1.0.7",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
